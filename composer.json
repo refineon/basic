@@ -1,0 +1,42 @@
+{
+    "name": "refineon/basic",
+    "description": "hyperf basic",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jkb",
+            "email": "1519051542@qq.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-redis": "*",
+        "ext-gd": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "hyperf/cache": "~2.2.0",
+        "hyperf/framework": "~2.2.0",
+        "hyperf/db-connection": "~2.2.0",
+        "hyperf/validation": "~2.2.0",
+        "hyperf/command": "~2.2.0",
+        "hyperf/redis": "~2.2.0",
+        "hyperf/guzzle": "~2.2.0",
+        "hyperf/config": "~2.2.0",
+        "hyperf/logger": "~2.2.0",
+        "hyperf/service-governance": "~2.2.0",
+        "fzaninotto/faker": "^1.9",
+        "phpoffice/phpspreadsheet": "^1.18",
+        "dimsav/unix-zipper": "1.*",
+        "hyperf/amqp": "~2.2.0",
+        "hyperf/paginator": "~2.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Refineon\\Basic\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
