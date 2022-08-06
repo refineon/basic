@@ -1,6 +1,6 @@
 <?php
 
-namespace Meibuyu\Micro\Exceptions\Handler;
+namespace Refineon\Basic\Exceptions\Handler;
 
 
 use Hyperf\Database\Exception\QueryException;

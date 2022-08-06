@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: zero
- * Date: 2020/2/11
- * Time: 11:49
- */
 
 namespace Refineon\Basic;
 
@@ -27,12 +21,10 @@ class ConfigProvider
                     ],
                 ],
             ],
-            'dependencies' => [
-                \Hyperf\ServiceGovernance\Listener\RegisterServiceListener::class => \Meibuyu\Micro\Listener\RegisterServiceListener::class,
-            ],
-            'commands' => [
-                \Refineon\Basic\Command\MakeModelCommand::class,
-            ],
+//            'dependencies' => [
+//                \Hyperf\ServiceGovernance\Listener\RegisterServiceListener::class =>  Refineon\Basic\Listener\RegisterServiceListener::class,
+//            ],
+
             'annotations' => [
                 'scan' => [
                     'paths' => [
